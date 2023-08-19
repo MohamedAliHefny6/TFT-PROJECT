@@ -1,0 +1,45 @@
+23:40:00 **** Incremental Build of configuration Debug for project TFT ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:6:0:
+../include/STD_TYPES.h:25:0: warning: "NULL" redefined
+ #define NULL      ((void*)0)   //Because NULL is defined inside stdio.h and we're not going to use that
+ 
+In file included from d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\arm-none-eabi\include\sys\unistd.h:14:0,
+                 from d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\arm-none-eabi\include\unistd.h:4,
+                 from ../system/include/diag/Trace.h:33,
+                 from ../src/main.c:4:
+d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\lib\gcc\arm-none-eabi\7.2.1\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+../src/main.c: In function 'main':
+../src/main.c:32:3: warning: implicit declaration of function 'HTFT_voidInit'; did you mean 'TFT_voidInit'? [-Wimplicit-function-declaration]
+   HTFT_voidInit();
+   ^~~~~~~~~~~~~
+   TFT_voidInit
+../src/main.c:40:4: warning: implicit declaration of function 'HTFT_voidDisplay'; did you mean 'TFT_voidDisplay'? [-Wimplicit-function-declaration]
+    HTFT_voidDisplay(Image1);
+    ^~~~~~~~~~~~~~~~
+    TFT_voidDisplay
+Finished building: ../src/main.c
+ 
+Building target: TFT.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"TFT.map" --specs=nano.specs -o "TFT.elf"  ./system/src/stm32f4-hal/stm32f4xx_hal.o ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o ./system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash.o ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o ./system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o ./system/src/stm32f4-hal/stm32f4xx_hal_pwr.o ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/system_stm32f4xx.o ./system/src/cmsis/vectors_stm32f401xc.o  ./src/MGPIO_prg.o ./src/MRCC_prg.o ./src/SPI_prg.o ./src/STK_prg.o ./src/TFT_prg.o ./src/_initialize_hardware.o ./src/_write.o ./src/main.o ./src/stm32f4xx_hal_msp.o   
+Finished building target: TFT.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "TFT.elf"  "TFT.hex"
+Finished building: TFT.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "TFT.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 254411	    160	    420	 254991	  3e40f	TFT.elf
+Finished building: TFT.siz
+ 
+
+23:40:02 Build Finished (took 2s.725ms)
+

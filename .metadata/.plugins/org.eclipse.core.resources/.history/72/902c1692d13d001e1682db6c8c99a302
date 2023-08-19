@@ -1,0 +1,40 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "diag/Trace.h"
+
+#include "MRCC_int.h"
+#include "MGPIO_int.h"
+#include "SPI_int.h"
+#include "TFT_int.h"
+#include "STK_int.h"
+#include "TFT_img.h"
+
+
+void main(void)
+{
+	MRCC_voidInitSysClk();
+		MSTK_voidInit();
+		MRCC_voidEnable_Peripheral(RCC_AHB1,AHB1ENR_GPIOAEN);
+		MRCC_voidEnable_Peripheral(RCC_APB2,APB2ENR_SPI1EN);
+
+		MGPIO_voidSetPinMode(PORTA,PIN0,OUTPUT);
+		MGPIO_voidSetPinMode(PORTA,PIN1,OUTPUT);
+		MGPIO_voidSetOutputPinMode(PORTA,PIN0,OUTPUT_PUSH_PULL,OUTPUT_MEDIUM);
+		MGPIO_voidSetOutputPinMode(PORTA,PIN1,OUTPUT_PUSH_PULL,OUTPUT_MEDIUM);
+
+		MSPI_voidInit();
+
+		HTFT_voidInit();
+
+		HTFT_voidDisplay(TIMMY);
+
+
+  while (1)
+    {
+
+    }
+}
+
+
+

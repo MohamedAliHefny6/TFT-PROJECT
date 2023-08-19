@@ -1,0 +1,737 @@
+16:45:17 **** Build of configuration Debug for project Car_Parking ****
+make all 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal.o" "../system/src/stm32f4-hal/stm32f4xx_hal.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_cortex.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_cortex.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_cortex.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_cortex.o" "../system/src/stm32f4-hal/stm32f4xx_hal_cortex.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_cortex.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.o" "../system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_flash.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_flash.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_flash.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_flash.o" "../system/src/stm32f4-hal/stm32f4xx_hal_flash.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_flash.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_gpio.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_gpio.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_gpio.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_gpio.o" "../system/src/stm32f4-hal/stm32f4xx_hal_gpio.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_gpio.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_iwdg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_iwdg.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o" "../system/src/stm32f4-hal/stm32f4xx_hal_iwdg.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_iwdg.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_pwr.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_pwr.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_pwr.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_pwr.o" "../system/src/stm32f4-hal/stm32f4xx_hal_pwr.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_pwr.c
+ 
+Building file: ../system/src/stm32f4-hal/stm32f4xx_hal_rcc.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-bad-function-cast -Wno-conversion -Wno-sign-conversion -Wno-unused-parameter -Wno-sign-compare -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"system/src/stm32f4-hal/stm32f4xx_hal_rcc.d" -MT"system/src/stm32f4-hal/stm32f4xx_hal_rcc.o" -c -o "system/src/stm32f4-hal/stm32f4xx_hal_rcc.o" "../system/src/stm32f4-hal/stm32f4xx_hal_rcc.c"
+Finished building: ../system/src/stm32f4-hal/stm32f4xx_hal_rcc.c
+ 
+Building file: ../system/src/newlib/_cxx.cpp
+Invoking: Cross ARM GNU C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -MMD -MP -MF"system/src/newlib/_cxx.d" -MT"system/src/newlib/_cxx.o" -c -o "system/src/newlib/_cxx.o" "../system/src/newlib/_cxx.cpp"
+Finished building: ../system/src/newlib/_cxx.cpp
+ 
+Building file: ../system/src/newlib/_exit.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/newlib/_exit.d" -MT"system/src/newlib/_exit.o" -c -o "system/src/newlib/_exit.o" "../system/src/newlib/_exit.c"
+Finished building: ../system/src/newlib/_exit.c
+ 
+Building file: ../system/src/newlib/_sbrk.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/newlib/_sbrk.d" -MT"system/src/newlib/_sbrk.o" -c -o "system/src/newlib/_sbrk.o" "../system/src/newlib/_sbrk.c"
+Finished building: ../system/src/newlib/_sbrk.c
+ 
+Building file: ../system/src/newlib/_startup.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -DOS_INCLUDE_STARTUP_INIT_MULTIPLE_RAM_SECTIONS -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/newlib/_startup.d" -MT"system/src/newlib/_startup.d" -c -o "system/src/newlib/_startup.o" "../system/src/newlib/_startup.c"
+Finished building: ../system/src/newlib/_startup.c
+ 
+Building file: ../system/src/newlib/_syscalls.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/newlib/_syscalls.d" -MT"system/src/newlib/_syscalls.o" -c -o "system/src/newlib/_syscalls.o" "../system/src/newlib/_syscalls.c"
+Finished building: ../system/src/newlib/_syscalls.c
+ 
+Building file: ../system/src/newlib/assert.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/newlib/assert.d" -MT"system/src/newlib/assert.o" -c -o "system/src/newlib/assert.o" "../system/src/newlib/assert.c"
+Finished building: ../system/src/newlib/assert.c
+ 
+Building file: ../system/src/diag/Trace.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/diag/Trace.d" -MT"system/src/diag/Trace.o" -c -o "system/src/diag/Trace.o" "../system/src/diag/Trace.c"
+Finished building: ../system/src/diag/Trace.c
+ 
+Building file: ../system/src/diag/trace_impl.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/diag/trace_impl.d" -MT"system/src/diag/trace_impl.o" -c -o "system/src/diag/trace_impl.o" "../system/src/diag/trace_impl.c"
+Finished building: ../system/src/diag/trace_impl.c
+ 
+Building file: ../system/src/cortexm/_initialize_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_initialize_hardware.d" -MT"system/src/cortexm/_initialize_hardware.o" -c -o "system/src/cortexm/_initialize_hardware.o" "../system/src/cortexm/_initialize_hardware.c"
+Finished building: ../system/src/cortexm/_initialize_hardware.c
+ 
+Building file: ../system/src/cortexm/_reset_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_reset_hardware.d" -MT"system/src/cortexm/_reset_hardware.o" -c -o "system/src/cortexm/_reset_hardware.o" "../system/src/cortexm/_reset_hardware.c"
+Finished building: ../system/src/cortexm/_reset_hardware.c
+ 
+Building file: ../system/src/cortexm/exception_handlers.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/cortexm/exception_handlers.d" -MT"system/src/cortexm/exception_handlers.o" -c -o "system/src/cortexm/exception_handlers.o" "../system/src/cortexm/exception_handlers.c"
+Finished building: ../system/src/cortexm/exception_handlers.c
+ 
+Building file: ../system/src/cmsis/system_stm32f4xx.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/cmsis/system_stm32f4xx.d" -MT"system/src/cmsis/system_stm32f4xx.o" -c -o "system/src/cmsis/system_stm32f4xx.o" "../system/src/cmsis/system_stm32f4xx.c"
+Finished building: ../system/src/cmsis/system_stm32f4xx.c
+ 
+Building file: ../system/src/cmsis/vectors_stm32f401xc.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"system/src/cmsis/vectors_stm32f401xc.d" -MT"system/src/cmsis/vectors_stm32f401xc.o" -c -o "system/src/cmsis/vectors_stm32f401xc.o" "../system/src/cmsis/vectors_stm32f401xc.c"
+Finished building: ../system/src/cmsis/vectors_stm32f401xc.c
+ 
+Building file: ../src/Keypad_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/Keypad_prg.d" -MT"src/Keypad_prg.o" -c -o "src/Keypad_prg.o" "../src/Keypad_prg.c"
+Finished building: ../src/Keypad_prg.c
+ 
+Building file: ../src/LCD.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/LCD.d" -MT"src/LCD.o" -c -o "src/LCD.o" "../src/LCD.c"
+../src/LCD.c: In function 'LCD_WriteBinary':
+../src/LCD.c:181:18: warning: implicit declaration of function 'READ_BIT'; did you mean 'SET_BIT'? [-Wimplicit-function-declaration]
+   LCD_WriteChar((READ_BIT(num , i)) + '0' );
+                  ^~~~~~~~
+                  SET_BIT
+Finished building: ../src/LCD.c
+ 
+Building file: ../src/LEDMATRIX_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/LEDMATRIX_prg.d" -MT"src/LEDMATRIX_prg.o" -c -o "src/LEDMATRIX_prg.o" "../src/LEDMATRIX_prg.c"
+Finished building: ../src/LEDMATRIX_prg.c
+ 
+Building file: ../src/MEXTI_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/MEXTI_prg.d" -MT"src/MEXTI_prg.o" -c -o "src/MEXTI_prg.o" "../src/MEXTI_prg.c"
+../src/MEXTI_prg.c: In function 'MEXTI_voidEnableEXTI':
+../src/MEXTI_prg.c:30:23: warning: comparison is always true due to limited range of data type [-Wtype-limits]
+  if((Copy_uddtLineNum >= 0) && (Copy_uddtLineNum <= 15) )
+                       ^~
+Finished building: ../src/MEXTI_prg.c
+ 
+Building file: ../src/MGPIO_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/MGPIO_prg.d" -MT"src/MGPIO_prg.o" -c -o "src/MGPIO_prg.o" "../src/MGPIO_prg.c"
+../src/MGPIO_prg.c: In function 'MGPIO_voidGetPinValue':
+../src/MGPIO_prg.c:250:9: warning: 'Result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  return Result;
+         ^~~~~~
+Finished building: ../src/MGPIO_prg.c
+ 
+Building file: ../src/MNVIC_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/MNVIC_prg.d" -MT"src/MNVIC_prg.o" -c -o "src/MNVIC_prg.o" "../src/MNVIC_prg.c"
+Finished building: ../src/MNVIC_prg.c
+ 
+Building file: ../src/MRCC_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/MRCC_prg.d" -MT"src/MRCC_prg.o" -c -o "src/MRCC_prg.o" "../src/MRCC_prg.c"
+In file included from ../src/MRCC_prg.c:3:0:
+../src/MRCC_prg.c: In function 'MRCC_InitSysClk':
+../include/BIT_MATH.h:15:33: warning: suggest parentheses around '+' inside '>>' [-Wparentheses]
+ #define GET_BIT(VAR,BITNO) ((VAR>>BITNO) & (0x01))
+                                 ^
+../src/MRCC_prg.c:31:9: note: in expansion of macro 'GET_BIT'
+  while(!GET_BIT(RCC->CR,CR_HSION+1));
+         ^~~~~~~
+Finished building: ../src/MRCC_prg.c
+ 
+Building file: ../src/MUART_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/MUART_prg.d" -MT"src/MUART_prg.o" -c -o "src/MUART_prg.o" "../src/MUART_prg.c"
+../src/MUART_prg.c: In function 'MUSART_voidTransmitChar':
+../src/MUART_prg.c:138:6: warning: implicit declaration of function 'MSTK_voidDelayMsec' [-Wimplicit-function-declaration]
+      MSTK_voidDelayMsec(20);
+      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/MUART_prg.c
+ 
+Building file: ../src/SPI_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/SPI_prg.d" -MT"src/SPI_prg.o" -c -o "src/SPI_prg.o" "../src/SPI_prg.c"
+Finished building: ../src/SPI_prg.c
+ 
+Building file: ../src/STK_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/STK_prg.d" -MT"src/STK_prg.o" -c -o "src/STK_prg.o" "../src/STK_prg.c"
+Finished building: ../src/STK_prg.c
+ 
+Building file: ../src/SYS_INIT.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/SYS_INIT.d" -MT"src/SYS_INIT.o" -c -o "src/SYS_INIT.o" "../src/SYS_INIT.c"
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:5:0: warning: "COL0" redefined
+ #define COL0     PIN0
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:14:0: note: this is the location of the previous definition
+ #define COL0        PIN1
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:6:0: warning: "COL1" redefined
+ #define COL1     PIN1
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:15:0: note: this is the location of the previous definition
+ #define COL1           PIN2
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:7:0: warning: "COL2" redefined
+ #define COL2     PIN2
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:16:0: note: this is the location of the previous definition
+ #define COL2           PIN3
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:16:0: warning: "ROW0" redefined
+ #define ROW0     PIN0
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:9:0: note: this is the location of the previous definition
+ #define ROW0        PIN12
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:17:0: warning: "ROW1" redefined
+ #define ROW1     PIN1
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:10:0: note: this is the location of the previous definition
+ #define ROW1        PIN13
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:18:0: warning: "ROW2" redefined
+ #define ROW2     PIN2
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:11:0: note: this is the location of the previous definition
+ #define ROW2        PIN14
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:19:0: warning: "ROW3" redefined
+ #define ROW3     PIN6
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:12:0: note: this is the location of the previous definition
+ #define ROW3        PIN15
+ 
+../src/SYS_INIT.c: In function 'ADMIN_STATE':
+../src/SYS_INIT.c:68:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("WELCOME");
+                      ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:72:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("TO SMART PARKING ");
+                   ^~~~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER1':
+../src/SYS_INIT.c:94:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("FIRST CUSTOMER ");
+                     ^~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:96:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("ENTER ID : ");
+                     ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER2':
+../src/SYS_INIT.c:118:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("SECOND CUSTOMER ");
+                      ^~~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:120:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("ENTER ID : ");
+                      ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:138:36: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+                    LCD_WriteString("INVALID!");
+                                    ^~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER3':
+../src/SYS_INIT.c:152:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("THIRD CUSTOMER ");
+                       ^~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:154:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("ENTER ID : ");
+                       ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:165:25: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+         LCD_WriteString("LOADING");
+                         ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:177:25: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+         LCD_WriteString("SUCCESSFUL");
+                         ^~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:182:30: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+              LCD_WriteString("WELCOME");
+                              ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:187:32: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+                LCD_WriteString("CARS : ");
+                                ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:191:32: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+                LCD_WriteString("FREE : ");
+                                ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:205:30: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+              LCD_WriteString("INVALID!");
+                              ^~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: At top level:
+../include/LCD.h:22:13: warning: 'WriteIns_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteIns_4BIT(u8 ins);
+             ^~~~~~~~~~~~~
+../include/LCD.h:23:13: warning: 'WriteData_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteData_4BIT(u8 data);
+             ^~~~~~~~~~~~~~
+Finished building: ../src/SYS_INIT.c
+ 
+Building file: ../src/Servo_motor.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/Servo_motor.d" -MT"src/Servo_motor.o" -c -o "src/Servo_motor.o" "../src/Servo_motor.c"
+Finished building: ../src/Servo_motor.c
+ 
+Building file: ../src/TFT_prg.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/TFT_prg.d" -MT"src/TFT_prg.o" -c -o "src/TFT_prg.o" "../src/TFT_prg.c"
+../src/TFT_prg.c: In function 'HTFT_voidReset':
+../src/TFT_prg.c:29:2: warning: implicit declaration of function 'MGPIO_voidSetPinValue'; did you mean 'MGPIO_voidGetPinValue'? [-Wimplicit-function-declaration]
+  MGPIO_voidSetPinValue(PORTA,TFT_RESET,PIN_HIGH);
+  ^~~~~~~~~~~~~~~~~~~~~
+  MGPIO_voidGetPinValue
+Finished building: ../src/TFT_prg.c
+ 
+Building file: ../src/main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:7:0:
+../include/STD_TYPES.h:25:0: warning: "NULL" redefined
+ #define NULL      ((void*)0)   //Because NULL is defined inside stdio.h and we're not going to use that
+ 
+In file included from d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\arm-none-eabi\include\sys\unistd.h:14:0,
+                 from d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\arm-none-eabi\include\unistd.h:4,
+                 from ../system/include/diag/Trace.h:33,
+                 from ../src/main.c:4:
+d:\01- imt sdk\imt_sdk_win_64\imt_sdk_win_64\winarm\armgcc\lib\gcc\arm-none-eabi\7.2.1\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:5:0: warning: "COL0" redefined
+ #define COL0     PIN0
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:14:0: note: this is the location of the previous definition
+ #define COL0        PIN1
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:6:0: warning: "COL1" redefined
+ #define COL1     PIN1
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:15:0: note: this is the location of the previous definition
+ #define COL1           PIN2
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:7:0: warning: "COL2" redefined
+ #define COL2     PIN2
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:16:0: note: this is the location of the previous definition
+ #define COL2           PIN3
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:16:0: warning: "ROW0" redefined
+ #define ROW0     PIN0
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:9:0: note: this is the location of the previous definition
+ #define ROW0        PIN12
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:17:0: warning: "ROW1" redefined
+ #define ROW1     PIN1
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:10:0: note: this is the location of the previous definition
+ #define ROW1        PIN13
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:18:0: warning: "ROW2" redefined
+ #define ROW2     PIN2
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:11:0: note: this is the location of the previous definition
+ #define ROW2        PIN14
+ 
+In file included from ../src/main.c:15:0:
+../include/LEDMATRIX_int.h:19:0: warning: "ROW3" redefined
+ #define ROW3     PIN6
+ 
+In file included from ../src/main.c:14:0:
+../include/keypad_int.h:12:0: note: this is the location of the previous definition
+ #define ROW3        PIN15
+ 
+../src/main.c: In function 'ENTER_GATE':
+../src/main.c:100:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("GARAGE IS FULL ");
+                     ^~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:125:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("CARS : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:129:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("FREE : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:140:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("CARS INSIDE !");
+                     ^~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:147:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("CARS : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:151:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("FREE : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:177:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("CARS : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:181:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("FREE : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:192:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("CARS INSIDE !");
+                     ^~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:198:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("CARS : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:202:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("FREE : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:229:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("CARS : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:233:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("FREE : ");
+                   ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:243:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("CARS INSIDE !");
+                     ^~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:249:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("CARS : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:253:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("FREE : ");
+                       ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:270:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("WRONG PASSWORD");
+                   ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:275:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("CARS : ");
+                     ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:279:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("FREE : ");
+                     ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c: In function 'EXIT_GATE':
+../src/main.c:328:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("CARS : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:332:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("FREE : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:343:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("CAR NOT HERE !");
+                      ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:350:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("CARS : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:354:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("FREE : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:381:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("CARS : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:385:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("FREE : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:396:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("CAR NOT HERE !");
+                      ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:402:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("CARS : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:406:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("FREE : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:434:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("CARS : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:438:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("FREE : ");
+                    ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:448:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("CAR NOT HERE !");
+                      ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:454:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("CARS : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:458:24: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+        LCD_WriteString("FREE : ");
+                        ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:475:20: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+    LCD_WriteString("WRONG PASSWORD");
+                    ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:480:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("CARS : ");
+                      ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c:484:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("FREE : ");
+                      ^~~~~~~~~
+In file included from ../src/main.c:13:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../include/LCD.h:22:13: warning: 'WriteIns_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteIns_4BIT(u8 ins);
+             ^~~~~~~~~~~~~
+../include/LCD.h:23:13: warning: 'WriteData_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteData_4BIT(u8 data);
+             ^~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/stm32f4xx_hal_msp.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wno-missing-prototypes -Wno-missing-declarations -MMD -MP -MF"src/stm32f4xx_hal_msp.d" -MT"src/stm32f4xx_hal_msp.d" -c -o "src/stm32f4xx_hal_msp.o" "../src/stm32f4xx_hal_msp.c"
+Finished building: ../src/stm32f4xx_hal_msp.c
+ 
+Building target: Car_Parking.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"Car_Parking.map" --specs=nano.specs -o "Car_Parking.elf"  ./system/src/stm32f4-hal/stm32f4xx_hal.o ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o ./system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash.o ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o ./system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o ./system/src/stm32f4-hal/stm32f4xx_hal_pwr.o ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/system_stm32f4xx.o ./system/src/cmsis/vectors_stm32f401xc.o  ./src/Keypad_prg.o ./src/LCD.o ./src/LEDMATRIX_prg.o ./src/MEXTI_prg.o ./src/MGPIO_prg.o ./src/MNVIC_prg.o ./src/MRCC_prg.o ./src/MUART_prg.o ./src/SPI_prg.o ./src/STK_prg.o ./src/SYS_INIT.o ./src/Servo_motor.o ./src/TFT_prg.o ./src/main.o ./src/stm32f4xx_hal_msp.o   
+Finished building target: Car_Parking.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Car_Parking.elf"  "Car_Parking.hex"
+Finished building: Car_Parking.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Car_Parking.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11327	    164	    456	  11947	   2eab	Car_Parking.elf
+Finished building: Car_Parking.siz
+ 
+
+16:45:35 Build Finished (took 17s.467ms)
+

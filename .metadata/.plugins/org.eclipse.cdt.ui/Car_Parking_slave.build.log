@@ -1,0 +1,192 @@
+23:42:55 **** Incremental Build of configuration Debug for project Car_Parking_slave ****
+make all 
+Building file: ../src/SYS_INIT.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F401xC -DUSE_HAL_DRIVER -DHSE_VALUE=25000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -MMD -MP -MF"src/SYS_INIT.d" -MT"src/SYS_INIT.o" -c -o "src/SYS_INIT.o" "../src/SYS_INIT.c"
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:5:0: warning: "COL0" redefined
+ #define COL0     PIN3
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:14:0: note: this is the location of the previous definition
+ #define COL0        PIN1
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:6:0: warning: "COL1" redefined
+ #define COL1     PIN4
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:15:0: note: this is the location of the previous definition
+ #define COL1           PIN2
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:7:0: warning: "COL2" redefined
+ #define COL2     PIN5
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:16:0: note: this is the location of the previous definition
+ #define COL2           PIN3
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:16:0: warning: "ROW0" redefined
+ #define ROW0     PIN8
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:9:0: note: this is the location of the previous definition
+ #define ROW0        PIN12
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:17:0: warning: "ROW1" redefined
+ #define ROW1     PIN9
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:10:0: note: this is the location of the previous definition
+ #define ROW1        PIN13
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:18:0: warning: "ROW2" redefined
+ #define ROW2     PIN0
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:11:0: note: this is the location of the previous definition
+ #define ROW2        PIN14
+ 
+In file included from ../src/SYS_INIT.c:10:0:
+../include/LEDMATRIX_int.h:19:0: warning: "ROW3" redefined
+ #define ROW3     PIN11
+ 
+In file included from ../src/SYS_INIT.c:9:0:
+../include/keypad_int.h:12:0: note: this is the location of the previous definition
+ #define ROW3        PIN15
+ 
+../src/SYS_INIT.c: In function 'SYS_INIT':
+../src/SYS_INIT.c:52:8: warning: implicit declaration of function 'MSPI_voidInit'; did you mean 'MSTK_voidInit'? [-Wimplicit-function-declaration]
+        MSPI_voidInit();
+        ^~~~~~~~~~~~~
+        MSTK_voidInit
+../src/SYS_INIT.c:54:8: warning: implicit declaration of function 'HTFT_voidInit'; did you mean 'MSTK_voidInit'? [-Wimplicit-function-declaration]
+        HTFT_voidInit();
+        ^~~~~~~~~~~~~
+        MSTK_voidInit
+../src/SYS_INIT.c: In function 'ADMIN_STATE':
+../src/SYS_INIT.c:73:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("WELCOME");
+                      ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:77:19: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+   LCD_WriteString("TO SMART PARKING ");
+                   ^~~~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER1':
+../src/SYS_INIT.c:99:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("FIRST CUSTOMER ");
+                     ^~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:101:21: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+     LCD_WriteString("ENTER ID : ");
+                     ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER2':
+../src/SYS_INIT.c:123:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("SECOND CUSTOMER ");
+                      ^~~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:125:22: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+      LCD_WriteString("ENTER ID : ");
+                      ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:143:36: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+                    LCD_WriteString("INVALID!");
+                                    ^~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: In function 'USER3':
+../src/SYS_INIT.c:157:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("THIRD CUSTOMER ");
+                       ^~~~~~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:159:23: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+       LCD_WriteString("ENTER ID : ");
+                       ^~~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:170:25: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+         LCD_WriteString("LOADING");
+                         ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:182:25: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+         LCD_WriteString("SUCCESSFUL");
+                         ^~~~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:187:30: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+              LCD_WriteString("WELCOME");
+                              ^~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c:199:30: warning: pointer targets in passing argument 1 of 'LCD_WriteString' differ in signedness [-Wpointer-sign]
+              LCD_WriteString("INVALID!");
+                              ^~~~~~~~~~
+In file included from ../src/SYS_INIT.c:8:0:
+../include/LCD.h:11:6: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ void LCD_WriteString(u8*str);
+      ^~~~~~~~~~~~~~~
+../src/SYS_INIT.c: At top level:
+../include/LCD.h:22:13: warning: 'WriteIns_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteIns_4BIT(u8 ins);
+             ^~~~~~~~~~~~~
+../include/LCD.h:23:13: warning: 'WriteData_4BIT' declared 'static' but never defined [-Wunused-function]
+ static void WriteData_4BIT(u8 data);
+             ^~~~~~~~~~~~~~
+Finished building: ../src/SYS_INIT.c
+ 
+Building target: Car_Parking_slave.elf
+Invoking: Cross ARM GNU C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"Car_Parking_slave.map" --specs=nano.specs -o "Car_Parking_slave.elf"  ./system/src/stm32f4-hal/stm32f4xx_hal.o ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o ./system/src/stm32f4-hal/stm32f4xx_hal_dfsdm.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash.o ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o ./system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o ./system/src/stm32f4-hal/stm32f4xx_hal_pwr.o ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o  ./system/src/newlib/_cxx.o ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_startup.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./system/src/diag/Trace.o ./system/src/diag/trace_impl.o  ./system/src/cortexm/_initialize_hardware.o ./system/src/cortexm/_reset_hardware.o ./system/src/cortexm/exception_handlers.o  ./system/src/cmsis/system_stm32f4xx.o ./system/src/cmsis/vectors_stm32f401xc.o  ./src/Keypad_prg.o ./src/LCD.o ./src/LEDMATRIX_prg.o ./src/MEXTI_prg.o ./src/MGPIO_prg.o ./src/MNVIC_prg.o ./src/MRCC_prg.o ./src/MUART_prg.o ./src/SPI_prg.o ./src/STK_prg.o ./src/SYS_INIT.o ./src/Servo_motor.o ./src/TFT_prg.o ./src/_initialize_hardware.o ./src/_write.o ./src/main.o ./src/stm32f4xx_hal_msp.o   
+Finished building target: Car_Parking_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "Car_Parking_slave.elf"  "Car_Parking_slave.hex"
+Finished building: Car_Parking_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Car_Parking_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9979	    176	    452	  10607	   296f	Car_Parking_slave.elf
+Finished building: Car_Parking_slave.siz
+ 
+
+23:42:57 Build Finished (took 1s.599ms)
+
